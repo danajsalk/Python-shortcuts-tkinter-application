@@ -7,6 +7,7 @@ You can see each shortcut script in this repository: https://github.com/danajsal
 This GUI has some fun features like color options and attributes that keep it on the topmost level at all times. This is very useful when you are clicking back and forth from a SQL windows or Excel sheet. You can easily add or edit functions to create your own version of Python Shortcuts.
 
 You can pick other colors here: http://color-picker.appsmaster.co/#00FF7B
+
 TKinter functions: https://docs.python.org/3/library/tkinter.html
 
 
