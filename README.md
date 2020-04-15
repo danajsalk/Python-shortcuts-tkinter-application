@@ -41,3 +41,22 @@ Below are some examaples of the inputs and outputs for the shortcuts.
 | Tick a Comma      | apples, oranges, bananas                     | 'apples', 'oranges', 'bananas'   |
 | Remove Duplicates | apples <br> apples <br> oranges <br> bananas | apples <br> oranges <br> bananas |
 
+
+## Adding a New Button
+<br>
+
+1. Define a new function for the button to activate
+
+```
+def newCommand():
+    setClip("""Testing your new button!""")
+```
+
+2. Add button to queryFrame
+
+queryFrame = the section the button will appear in
+
+```
+newButton = Button(queryFrame, text="Your New Button Text", command=newCommand)
+newButton.pack(fill=X)
+```
