@@ -44,6 +44,7 @@ Below are some examaples of the inputs and outputs for the shortcuts.
 
 ## Adding a New Button
 <br>
+See file "tkinter_application_new_button.py"
 
 1. Define a new function for the button to activate
 
@@ -60,3 +61,5 @@ queryFrame = the section the button will appear in
 newButton = Button(queryFrame, text="Your New Button Text", command=newCommand)
 newButton.pack(fill=X)
 ```
+
+![Capture](https://user-images.githubusercontent.com/46821074/79362785-3f7d6280-7f04-11ea-9b25-b1712f5782f6.PNG)
